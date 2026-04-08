@@ -1,0 +1,69 @@
+# ==============================================
+# SENSITIVE FILES - DO NOT PUSH THESE TO GITHUB
+# ==============================================
+
+# Environment variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Personal Data Files
+data/*.json
+data/chats/
+data/screenshots/
+data/whatsapp-session/
+data/memory.json
+data/user.json
+data/allowed_numbers.json
+data/wakeup.json
+data/summary.json
+data/missed_tasks.json
+
+# Log files
+logs/
+*.log
+*.jsonl
+
+# Workspace personal data
+workspace/MEMORY.md
+workspace/USER.md
+workspace/SOUL.md
+workspace/memory/
+
+# System / OS Files
+.DS_Store
+Thumbs.db
+
+# Node Modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test files
+test/*.png
+test/*.jpg
+test/*.pdf
+
+# PDF files
+page.pdf
+
+# Downloaded files
+missedTaskQueue.js
